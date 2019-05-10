@@ -12,5 +12,21 @@
 			<version>4.12</version>
 		</dependency>
 	</dependencies>
+	
+	<builds>
+		<plugins>
+			<plugin>
+      				<groupId>org.apache.maven.plugins</groupId>
+      				<artifactId>maven-site-plugin</artifactId>
+      				<dependencies>
+					<dependency>
+          					<groupId>org.apache.velocity</groupId>
+          					<artifactId>velocity</artifactId>
+          					<version>1.5</version>
+        				</dependency>
+      				</dependencies>
+    			</plugin>
+		</plugins>
+	</builds>
 		
 </project>
