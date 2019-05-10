@@ -13,7 +13,7 @@
 		</dependency>
 	</dependencies>
 	
-	<builds>
+	<build>
 		<plugins>
 			<plugin>
       				<groupId>org.apache.maven.plugins</groupId>
@@ -27,6 +27,6 @@
       				</dependencies>
     			</plugin>
 		</plugins>
-	</builds>
+	</build>
 		
 </project>
